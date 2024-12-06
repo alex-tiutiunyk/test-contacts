@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-black: #000;
+}
+
+body {
+  min-width: 320px;
+  color: var(--color-black);
+}
+
+[type=file] {
+  background: unset;
+  padding: 0;
+}

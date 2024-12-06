@@ -1,0 +1,1 @@
+export const NO_IMG_URL = 'https://robohash.org/XKQ.png?set=set1&size=150x150';
