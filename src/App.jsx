@@ -9,9 +9,9 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/contacts-react-app" element={<Layout />}>
+        <Route path="/test-contacts" element={<Layout />}>
           <Route index element={<HomePage />}/>
-          <Route path="/contacts-react-app/:id" element={<SinglePage />}/>
+          <Route path="/test-contacts/:id" element={<SinglePage />}/>
           <Route path="*" element={<NotFound />}/>
         </Route>
       </Routes>

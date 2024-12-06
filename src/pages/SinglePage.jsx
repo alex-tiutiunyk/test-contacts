@@ -51,7 +51,7 @@ const SingleContact = () => {
   return (
     <>
       <div className="p-4 grow">
-        <Link to="/contacts-react-app" className="inline-block p-2 text-base font-bold border-solid border border-gray-300 rounded-md transition hover:bg-sky-500 hover:border-sky-500 hover:text-white hover:shadow-sky-200 hover:shadow-md" >&lt; Back</Link>
+        <Link to="/test-contacts" className="inline-block p-2 text-base font-bold border-solid border border-gray-300 rounded-md transition hover:bg-sky-500 hover:border-sky-500 hover:text-white hover:shadow-sky-200 hover:shadow-md" >&lt; Back</Link>
         {isError && <div>Loading error!</div>}
         {isLoading && <Spinner />}
         {data && <div className="p-4 max-w-xl mx-auto">

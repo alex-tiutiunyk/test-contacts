@@ -21,7 +21,7 @@ const Contacts = () => {
       {isError && <div>Loading error!</div>}
       {isLoading && <Spinner />}
       {data.map(item => (
-        <Link to={`/contacts-react-app/${item.id}`} key={item.id} className="rounded-md bg-gray-200 hover:bg-gray-300 transition hover:shadow-gray-400 hover:shadow-md p-4 mb-4 pr-14 flex gap-x-3 relative">
+        <Link to={`/test-contacts/${item.id}`} key={item.id} className="rounded-md bg-gray-200 hover:bg-gray-300 transition hover:shadow-gray-400 hover:shadow-md p-4 mb-4 pr-14 flex gap-x-3 relative">
           <div className='w-[59px] h-[59px] flex-none overflow-hidden border-2 rounded-full border-white'>
             <img 
               className="rounded-full object-cover min-h-full"
